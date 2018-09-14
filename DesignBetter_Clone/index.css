@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.whole {
+  background-image: url('http://res.freestockphotos.biz/pictures/9/9090-an-abstract-blue-background-pv.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #FAFAFA;
+}
+
+nav, .logo-container, .link-container, .main, p, .start-button, .bottom-container {
+  display: flex;
+   
+} 
+
+nav{
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 10vh;
+}
+
+.logo-container {
+  justify-content: space-around;
+  align-items: center;
+  height:50%;
+  width: 20%;
+  text-align: center;
+}
+
+.link-container {
+  justify-content: space-between;
+  width: 55%;
+}
+
+.subscribe {
+  border: solid 1px;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.main {
+  height: 70vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+}
+p, .start-button {
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  width: 64.5%;
+}
+.bigmessage {
+  font-size: 3em;
+}
+
+.start-button {
+  background: #FAFAFA;
+  border-radius: 25px;
+  color:#2B58F1;
+  border: 1px solid #FAFAFA;
+  padding: 10px;
+}
+
+.bottom-container{
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.dot {
+  height: 5vh;
+  width: 5vh;
+  border-radius: 50%;
+  position: relative;
+  border: 1px solid;
+}
