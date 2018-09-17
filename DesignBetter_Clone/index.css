@@ -16,7 +16,7 @@
 
 nav, .logo-container, .link-container, .main, p, .start-button, .bottom-container {
   display: flex;
-   
+
 } 
 
 nav{
@@ -51,9 +51,8 @@ nav{
   justify-content: center;
   align-items: center;
   text-align: center;
-
-
 }
+
 p, .start-button {
   justify-content: center;
   align-items: center;
@@ -87,3 +86,4 @@ p {
   position: relative;
   border: 1px solid;
 }
+
